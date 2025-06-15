@@ -9,10 +9,10 @@ BEGIN
     BLOCK "040904E4"
     BEGIN
       VALUE "FileDescription", "Display and control your Android device"
-      VALUE "InternalName", "scrcpy"
+      VALUE "InternalName", "Mini Mirror"
       VALUE "LegalCopyright", "Romain Vimont, Genymobile"
       VALUE "OriginalFilename", "scrcpy.exe"
-      VALUE "ProductName", "scrcpy"
+      VALUE "ProductName", "Mini Mirror"
       VALUE "ProductVersion", "3.3"
     END
   END

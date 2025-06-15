@@ -2,9 +2,9 @@
 source for the project. Do not download releases from random websites, even if
 their name contains `scrcpy`.**
 
-# scrcpy (v3.3)
+# Mini Mirror (v3.3)
 
-<img src="app/data/icon.svg" width="128" height="128" alt="scrcpy" align="right" />
+<img src="app/data/icon.svg" width="128" height="128" alt="Mini Mirror" align="right" />
 
 _pronounced "**scr**een **c**o**py**"_
 
