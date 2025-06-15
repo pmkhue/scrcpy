@@ -15,10 +15,12 @@
 #define NAV_BUTTON_SIZE 48
 #define NAV_BUTTON_PADDING 10
 #define NAV_BUTTON_SPACING 10
+/// cish1v-codex/thêm-nút-back-home-recent-vào-android-emulator
 #define NAV_BUTTON_COLOR_R 60
 #define NAV_BUTTON_COLOR_G 60
 #define NAV_BUTTON_COLOR_B 60
 #define NAV_BUTTON_ALPHA 160
+
 
 #define DOWNCAST(SINK) container_of(SINK, struct sc_screen, frame_sink)
 
@@ -244,8 +246,10 @@ sc_screen_draw_nav_buttons(struct sc_screen *screen) {
 
     SDL_Renderer *renderer = screen->display.renderer;
     SDL_SetRenderDrawBlendMode(renderer, SDL_BLENDMODE_BLEND);
+   //cish1v-codex/thêm-nút-back-home-recent-vào-android-emulator
     SDL_SetRenderDrawColor(renderer, NAV_BUTTON_COLOR_R, NAV_BUTTON_COLOR_G,
                            NAV_BUTTON_COLOR_B, NAV_BUTTON_ALPHA);
+
 
     SDL_Rect rect = {x, y, size, size};
     screen->nav.back = rect;
@@ -277,7 +281,9 @@ sc_screen_render(struct sc_screen *screen, bool update_content_rect) {
     (void) res; // any error already logged
 
     sc_screen_draw_nav_buttons(screen);
+   //cish1v-codex/thêm-nút-back-home-recent-vào-android-emulator
     SDL_RenderPresent(screen->display.renderer);
+
 }
 
 static void
